@@ -1,0 +1,5 @@
+#!/usr/bin/env bash 
+# Push To Branch: Run git push origin -current-branch-
+
+git push origin $(git rev-parse --abbrev-ref HEAD)
+prr 
